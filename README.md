@@ -64,3 +64,40 @@ Here is a reminder of how to use the unshift() method:
 Example Code
 array.unshift(item1, item2, ..., itemX);
 Use the unshift() method to add the string "Vegetable Oil" to the beginning of the shoppingList array.
+
+Step 10
+Next, add a console.log and call the getShoppingListMsg function inside of the console.log to see the updated list logged to the console.
+
+Step 11
+In earlier steps, you reviewed how to add an item to the end of the array using the push method.
+
+But the push method accepts multiple arguments, so you can add multiple items to the end of the array like this:
+
+Example Code
+array.push(item1, item2, item3);
+In this step, use the push method to add the strings "Popcorn", "Beef Jerky", "Potato Chips" to the shoppingList array.
+
+The order is important, so make sure to add the items in the order they are listed.
+
+Step 12
+Now it is time to log the updated shoppingList array to the console.
+
+Add another console.log and call the getShoppingListMsg function inside of the console.log to see the updated list logged to the console.
+
+Step 13
+For this next portion of the workshop, you will review how to remove items from the end of the array.
+
+Start by adding a console.log that logs the message "This looks like too much junk food.".
+
+Step 14
+In the previous lecture videos, you learned how to remove items from the end of an array using the pop method.
+
+Here is reminder of how to use the pop method:
+
+Example Code
+let array = [1, 2, 3, 4, 5];
+array.pop();
+
+// [1, 2, 3, 4]
+console.log(array); 
+Use the pop method to remove the last item from the shoppingList array.
