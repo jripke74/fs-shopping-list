@@ -101,3 +101,57 @@ array.pop();
 // [1, 2, 3, 4]
 console.log(array); 
 Use the pop method to remove the last item from the shoppingList array.
+
+Step 15
+Now it is time to log the updated shoppingList array to the console.
+
+Add a console.log and call the getShoppingListMsg function inside of the console.log to see the updated list logged to the console.
+
+Step 16
+Now it is time to add more items to the beginning of the grocery list.
+
+Start by adding a console.log statement that logs the message "It might be nice to get a dessert."
+
+Below that console statement, use the correct array method to add the string "Chocolate Cake" to the beginning of the shoppingList array.
+
+Finally, add a console.log and call the getShoppingListMsg function inside of the console.log to see the updated list logged to the console.
+
+Step 17
+In this last part of the workshop, you will review how to remove an item from the beginning of an array.
+
+Start by adding a console.log that logs the message "On second thought, maybe we should be more health conscious.".
+
+Step 18
+In the lecture videos, you learned how to remove an item from the beginning of the array using the shift method.
+
+Here is a reminder of how to use the shift method:
+
+Example Code
+const array = [1, 2, 3, 4, 5];
+array.shift();
+
+// Result: [2, 3, 4, 5]
+console.log(array); 
+Use the shift method to remove the first item from the shoppingList array.
+
+Step 19
+The last change to make to the grocery list is to update the first item in the list.
+
+In the previous lecture videos, you learned how to update an item using bracket notation and the index of the item you want to update.
+
+Here is a reminder of how to update an item in an array:
+
+Example Code
+const array = [1, 2, 3, 4, 5];
+
+array[0] = 10;
+// Result: [10, 2, 3, 4, 5]
+console.log(array); 
+Update the first item in the shoppingList array to be "Canola Oil".
+
+Step 20
+In this final step of the workshop, log the final grocery list to the console.
+
+To do this, call the getShoppingListMsg function with the shoppingList array as an argument inside console.log.
+
+And with this last step your grocery list is complete!
